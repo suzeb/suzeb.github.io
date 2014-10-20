@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat;
+	background: url("/../images/stripes.png") repeat-x, url("/../images/background.jpg") no-repeat;
 	background-size:auto, cover;
 	background-color: slategray;
 	text-indent: 70px;
