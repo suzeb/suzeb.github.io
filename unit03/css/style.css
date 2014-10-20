@@ -1,13 +1,14 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	border-top: url("images/stripes.png") repeat-x;
-	background color: slategray;
-	background-image: url("images/background.jpg");
+	background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat;
+	background-size:auto, cover;
+	background-color: slategray;
 	text-indent: 70px;
 }
 
-#hr {
-  color: red;
-  float left;
+hr {
+  border-color:red;
+  float:left;
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 }
 
 p {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	font-size: 16px;
 	color: white;
 	font-weight: normal;
